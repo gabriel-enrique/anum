@@ -1,0 +1,4 @@
+function F = FBesar(x, y)
+  F = zeros(2, 1);
+  F(1) = 2*x*sin(y) - y^2*log(x);
+  F(2) = exp(2*x*y) - cos(x*y) - 1;
